@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.8.13;
 
-import "https://github.com/lukydwisaputra/swap-contracts/blob/main/Context.sol";
+import "https://github.com/lukydwisaputra/contract-core/blob/main/libraries/Context.sol";
 
 contract Ownable is Context {
     address private _owner;
