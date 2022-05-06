@@ -1,6 +1,13 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.8.13;
 
+// INTERFACES
+import "https://github.com/lukydwisaputra/contract-core/blob/main/interfaces/IPancakeFactory.sol";
+import "https://github.com/lukydwisaputra/contract-core/blob/main/interfaces/IPancakePair.sol";
+
+// LIBRARIES
+import "https://github.com/lukydwisaputra/contract-core/blob/main/libraries/SafeMath.sol";
+
 library PancakeLibrary {
     using SafeMath for uint256;
 
